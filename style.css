@@ -27,25 +27,33 @@ p {
 .primeira {
     margin-bottom: 5rem;
 }
-.segunda{
-    background-color: #F0E5CF;
-    height: 20rem;
-}
-.segunda img{
-    display: flex;
-    height: 14.2rem;
-    width: 10rem;
-}
-.segunda img, p {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
 
-.terceira {
+.segunda {
+    background-color: #F0E5CF;
+   height: 20rem;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.segunda img {
     height: 15rem;
     width: 10rem;
+}
+.segunda p {
+    width: 20rem;
+}
+
+.terceira img {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+    
+}
+.terceira  {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+    
 }
